@@ -4,14 +4,8 @@
     "slug": "snack-230ec596-fc9e-4822-8770-326b6a3d6b73",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
-    "splash": {
-      "image": "./splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "ios": {
       "supportsTablet": true
     },
@@ -20,7 +14,6 @@
         "foregroundImage": "./adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true,
       "package": "com.farmmanagementbd.app"
     },
     "web": {
@@ -30,6 +23,10 @@
       "eas": {
         "projectId": "bb1a7c56-b696-4f2c-82fe-2037d3ff50bf"
       }
-    }
+    },
+    "plugins": [
+      "expo-font",
+      "expo-status-bar"
+    ]
   }
 }
