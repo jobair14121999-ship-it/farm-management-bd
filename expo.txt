@@ -1,0 +1,25 @@
+Starting Metro Bundler
+
+Android Bundling failed 664ms index.js (538 modules)
+
+Error: Unable to resolve module @react-native-firebase/auth from /workspaces/farm-management-bd/App.js: @react-native-firebase/auth could not be found within the project or in these directories:
+  node_modules
+[0m [90m 13 |[39m
+ [90m 14 |[39m [36mimport[39m [33mAsyncStorage[39m [36mfrom[39m [32m'@react-native-async-storage/async-storage'[39m[33m;[39m
+[31m[1m>[22m[39m[90m 15 |[39m [36mimport[39m auth [36mfrom[39m [32m'@react-native-firebase/auth'[39m[33m;[39m
+ [90m    |[39m                   [31m[1m^[22m[39m
+ [90m 16 |[39m [36mimport[39m firestore [36mfrom[39m [32m'@react-native-firebase/firestore'[39m[33m;[39m
+ [90m 17 |[39m [36mimport[39m [33mFarmApp[39m [36mfrom[39m [32m'./FarmApp'[39m[33m;[39m
+ [90m 18 |[39m[0m
+
+Import stack:
+
+ App.js
+ | import "@react-native-firebase/auth"
+
+ index.js
+ | import "./App"
+
+ 
+ | import "./index"
+
