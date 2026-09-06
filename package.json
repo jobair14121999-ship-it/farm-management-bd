@@ -3,8 +3,8 @@
   "main": "index.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
@@ -20,5 +20,7 @@
     "react-native": "0.86.3",
     "react-native-paper": "4.9.2"
   },
-  "private": true
+  "private": true,
+  "name": "farm-management-bd",
+  "version": "1.0.0"
 }

@@ -14,7 +14,8 @@
         "foregroundImage": "./adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.farmmanagementbd.app"
+      "package": "com.farmmanagementbd.app",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -26,7 +27,8 @@
     },
     "plugins": [
       "expo-font",
-      "expo-status-bar"
+      "expo-status-bar",
+      "@react-native-firebase/app"
     ]
   }
 }
